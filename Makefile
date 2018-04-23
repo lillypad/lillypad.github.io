@@ -1,6 +1,7 @@
 .PHONY: all
+.PHONY: resume
 
-all: deps qrcode
+all: deps qrcode resume
 
 deps:
 	npm install
@@ -12,7 +13,16 @@ qrcode:
 	cd pages/contact/ && \
 		cat contact.vcf | qrencode -o img/contact.png
 
+resume:
+	cd resume/ && \
+		pdflatex resume.tex && \
+		mkdir -p ../pages/resume/ && \
+		mv resume.pdf ../pages/resume/resume.pdf
+
 clean:
+	cd resume/ && \
+		rm -f *.aux && \
+		rm -f *.log
 	rm -f package-lock.json
 	rm -rf node_modules/
 	rm -f pages/contact/img/contact.png
