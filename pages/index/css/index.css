@@ -1,9 +1,18 @@
+body {
+    background-color:#000000;
+}
+
 nbody {
     padding-top: 5rem;
 }
 
 .lead{
     font-size: medium;
+}
+
+.container{
+    border-radius:25px;
+    background-color:#808080;
 }
 
 .starter-template {
