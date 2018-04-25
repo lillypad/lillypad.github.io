@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+a {
+    color: yellow;
+}
+
+a:hover{
+    color: purple;
+}
+
+body {
+    color: #7FFF00;
+    background-color: #000000;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.container{
+    color: #7FFF00;
+    background-color: #000000;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.navbar-dark .navbar-brand{
+    color: #7FFF00 !important;
+    background-color: #000000 !important;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: #FFFFFF !important;
+    background-color: #000000 !important;
+}
+
+.navbar-dark .nav-link{
+    color: #7FFF00 !important;
+    background-color: #000000 !important;
+}
+
+.navbar-dark .nav-link:hover{
+    color: #FFFFFF !important;
+    background-color: #000000 !important;
+}
+
+.navbar-dark .dropdown-menu{
+    background-color: #000000 !important;
+}
+
+.navbar-dark .dropdown-item{
+    color: #7FFF00 !important;
+    background-color: #000000 !important;
+}
+
+.navbar-dark .dropdown-item:hover{
+    color: #000000 !important;
+    background-color: #7FFF00 !important;
+}
