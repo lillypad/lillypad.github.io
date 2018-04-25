@@ -2,20 +2,20 @@ body {
     background-color:#000000;
 }
 
+h1 {
+    color: white;
+}
+
 nbody {
     padding-top: 5rem;
 }
 
 .lead{
+    color: white;
     font-size: medium;
 }
 
 .container{
-    border-radius:25px;
-    background-color:#808080;
-}
-
-.starter-template {
-    padding: 3rem 1.5rem;
     text-align: center;
-}
+    color: gray;
+}}
