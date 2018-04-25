@@ -1,13 +1,16 @@
 .PHONY: all
 .PHONY: resume
 
-all: deps resume site
+all: deps qrencode resume site
 
 deps:
 	npm install
 	cp -r node_modules/bootstrap/dist/ assets/lib/bootstrap/
 	cp -r node_modules/popper.js/dist/ assets/lib/popper.js/
 	cp -r node_modules/jquery/dist/ assets/lib/jquery/
+
+qrencode:
+	cat assets/vcf/contact.vcf | qrencode -o assets/pages/contact/img/contact.png
 
 resume:
 	cd resume/ && \
@@ -22,6 +25,7 @@ clean:
 	cd resume/ && \
 		rm -f *.aux && \
 		rm -f *.log
+	rm -f assets/pages/contact/img/contact.png
 	rm -f package-lock.json
 	rm -rf node_modules/
 	rm -rf _site/
