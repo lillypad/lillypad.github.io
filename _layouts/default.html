@@ -6,25 +6,28 @@
     <meta name="description" content="Lilly Chalupowski's Website">
     <meta name="author" content="Lilly Chalupowski">
     <title>Lilly Chalupowski</title>
-    <link rel="icon" href="./assets/img/favicon/favicon.ico"/>
+    <link rel="icon" href="/assets/img/favicon/favicon.ico"/>
     <link rel="stylesheet" href="/assets/lib/bootstrap/css/bootstrap.min.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="/assets/lib/theme/css/theme.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="{{ page.css }}" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/assets/lib/highlight.js/styles/monokai.css">
+    <script type="text/javascript" src="/assets/lib/highlight.js/highlight.pack.js"></script>
+    <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#000000;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-colors">
       <a class="navbar-brand" href="/">lillypad</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li id="nav-link-home" class="nav-item">
             <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="./assets/pdf/resume.pdf">Resume</a>
+            <a class="nav-link" target="_blank" href="/assets/pdf/resume.pdf">Resume</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
@@ -38,17 +41,23 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="./pages/contact">Contact</a>
+            <a class="nav-link" href="/pages/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="/pages/contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-    <main role="main" class="container">
+    <br>
+    <br>
+    <br>
+    <div role="main" class="container">
       {{ content }}
-    </main>
+    </div>
   </body>
   <script type="text/javascript" src="{{ page.script }}"></script>
-  <script type="text/javascript" src="./assets/lib/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="./assets/lib/popper.js/popper.min.js"></script>
-  <script type="text/javascript" src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/lib/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/lib/popper.js/popper.min.js"></script>
+  <script type="text/javascript" src="/assets/lib/bootstrap/js/bootstrap.min.js"></script>
 </html>
