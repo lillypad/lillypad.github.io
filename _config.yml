@@ -1,0 +1,8 @@
+title: Lilly's Professional Website
+author: Lilly Chalupowski
+email: lillypadgirl86@gmail.com
+description: My Professional Website
+github_username: lillypad
+include: ['_pages']
+exclude: ['Makefile', 'package.json', 'package-lock.json', 'README.md', 'node_modules', 'pages', 'resume']
+markdown: kramdown
