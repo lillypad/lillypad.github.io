@@ -4,42 +4,66 @@ a {
     color: yellow;
 }
 
+blockquote {
+  background: #000000;
+  border-left: 10px solid #FF0000;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: yellow;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
 a:hover{
     color: purple;
 }
 
-body {
-    color: #7FFF00;
+img{
+    border-radius: 8px;
+}
+
+body{
     background-color: #000000;
-    font-weight: bold;
+    color: #7FFF00;
     font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+
 }
 
 .container{
-    color: #7FFF00;
     background-color: #000000;
-    font-weight: bold;
+    color: #7FFF00;
     font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
 }
 
 .navbar-dark .navbar-brand{
-    color: #7FFF00 !important;
     background-color: #000000 !important;
+    color: #7FFF00 !important;
 }
 
 .navbar-dark .navbar-brand:hover{
-    color: #000000 !important;
     background-color: #7FFF00 !important;
+    color: #000000 !important;
 }
 
 .navbar-dark .nav-link{
-    color: #7FFF00 !important;
     background-color: #000000 !important;
+    color: #7FFF00 !important;
 }
 
 .navbar-dark .nav-link:hover{
-    color: #000000 !important;
     background-color: #7FFF00 !important;
+    color: #000000 !important;
 }
 
 .navbar-dark .dropdown-menu{
@@ -47,11 +71,11 @@ body {
 }
 
 .navbar-dark .dropdown-item{
-    color: #7FFF00 !important;
     background-color: #000000 !important;
+    color: #7FFF00 !important;
 }
 
 .navbar-dark .dropdown-item:hover{
-    color: #000000 !important;
     background-color: #7FFF00 !important;
+    color: #000000 !important;
 }
