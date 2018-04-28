@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('/assets/lib/theme/fonts/dustdotregular/font.css');
 
 a {
     color: yellow;
@@ -34,16 +34,15 @@ img{
 body{
     background-color: #000000;
     color: #7FFF00;
-    font-family: 'Share Tech Mono', monospace;
-    font-weight: bold;
-
+    font-family: 'DustDotRegular', monospace;
+    font-size: 1.15em;
 }
 
 .container{
     background-color: #000000;
     color: #7FFF00;
-    font-family: 'Share Tech Mono', monospace;
-    font-weight: bold;
+    font-family: 'DustDotRegular', monospace;
+    font-size: 1.15em;
 }
 
 .navbar-dark .navbar-brand{

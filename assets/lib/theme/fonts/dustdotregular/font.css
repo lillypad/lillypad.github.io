@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'DustDotRegular';
+	src: url('./DustDotRegular.eot');
+	src: local('DustDotRegular'), url('./DustDotRegular.woff') format('woff'), url('./DustDotRegular.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_844">Text with this font applied</p> */
+.fontsforweb_fontid_844 {
+	font-family: 'DustDotRegular' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
