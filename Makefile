@@ -14,6 +14,7 @@ deps:
 	cp -r node_modules/bootstrap/dist/ assets/lib/bootstrap/
 	cp -r node_modules/popper.js/dist/ assets/lib/popper.js/
 	cp -r node_modules/jquery/dist/ assets/lib/jquery/
+	cp -r node_modules/typed.js/lib/ assets/lib/typed.js/
 
 qrencode:
 	cat assets/vcf/contact.vcf | qrencode -o assets/pages/contact/img/contact.png
