@@ -3,6 +3,7 @@ layout: default
 title: Chrome Crusader and AtlSecCon
 ---
 
+<div id="typed-strings">
 <pre style="text-align:center;color:#7FFF00;">
  ▄▄▄     ▄▄▄█████▓ ██▓      ██████ ▓█████  ▄████▄   ▄████▄   ▒█████   ███▄    █ 
 ▒████▄   ▓  ██▒ ▓▒▓██▒    ▒██    ▒ ▓█   ▀ ▒██▀ ▀█  ▒██▀ ▀█  ▒██▒  ██▒ ██ ▀█   █ 
@@ -15,6 +16,17 @@ title: Chrome Crusader and AtlSecCon
       ░  ░            ░  ░      ░     ░  ░░ ░      ░ ░          ░ ░           ░ 
                                           ░        ░                            
 </pre>
+</div>
+<pre style="color:#7FFF00;" id="typed"></pre>
+
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 0,
+    loop: false
+  });
+  document.getElementsByClassName('typed-cursor')[0].style.display = 'none';
+</script>
 
 I did a presentation Chrome extension malware development at the conference this year (`2018-04-28`).
 
