@@ -50,6 +50,7 @@ body{
     color: #7FFF00 !important;
 }
 
+.navbar-dark .nav-item.active .nav-link,
 .navbar-dark .navbar-brand:hover{
     background-color: #7FFF00 !important;
     color: #000000 !important;

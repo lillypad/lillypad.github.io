@@ -9,8 +9,7 @@ function init(){
     document.getElementsByClassName('typed-cursor')[0].style.display = 'none';
     return true;
   } catch(error){
-    console.log(error);
-    return false;
+    throw error;
   }
 }
 
