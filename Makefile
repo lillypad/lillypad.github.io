@@ -22,6 +22,7 @@ qrencode:
 resume:
 	cd resume/ && \
 		pdflatex resume.tex && \
+		pdflatex resume.tex && \
 		mkdir -p ../assets/pdf/ && \
 		mv resume.pdf ../assets/pdf/resume.pdf
 
